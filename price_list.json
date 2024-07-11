@@ -25,16 +25,16 @@
                                     "Hóa đơn điện tử",
                                     "Hóa đơn đầu vào"
                 ],
-                "feat":[
-                        "Đào tạo sử dụng phần mềm online: ",
-                        "Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
-                        "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
-                        "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
-                ],      
-                "feat_price":[
-                        "500.000 VND / buổi",
-                        "2.000.000 VND / Năm",
-                        "3.000.000 VND / Gói"
-                ]
+                "service_support_feat":{
+                                                "feat_1":"Đào tạo sử dụng phần mềm online: ",
+                                                "feat_1_price":"500.000 VND / buổi",
+                                                "feat_2":"Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
+                                                "feat_2_price":"2.000.000 VND / Năm",
+                                                "feat_3":"Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
+                                                "feat_3_price":"3.000.000 VND / Gói",
+                                                "feat_4":"Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
+                                                }
+            }
+        ]
     }
 ]
