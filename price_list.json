@@ -11,9 +11,9 @@
                 "basic_detail":[
                                 "Các phân hệ kế toán cơ bản",
                                 "Tích hợp ngân hàng điện tử BIDV",
-                                "Giao diện tiếng Việt",
-                                "Các gói dịch vụ hỗ trợ"
+                                "Giao diện tiếng Việt"
                                 ],
+                "basic_detail_support":["Các gói dịch vụ hỗ trợ"],
                 "detail_feat_id_1":[
                                     "Tiền mặt và tiền gửi",
                                     "Bán hàng",
@@ -53,8 +53,8 @@
                                 "Tích hợp ngân hàng điện tử BIDV",
                                 "Giao diện tiếng Việt",
                                 "Phân hệ nâng cao",
-                                "Các gói dịch vụ hỗ trợ"
                                 ],
+                "basic_detail_support":["Các gói dịch vụ hỗ trợ"],
                 "detail_feat_id_1":[    
                                     "Tiền mặt và tiền gửi",
                                     "Bán hàng",
@@ -98,9 +98,9 @@
                                 "Các phân hệ kế toán cơ bản",
                                 "Tích hợp ngân hàng điện tử BIDV",
                                 "Đa ngôn ngữ",
-                                "Phân hệ nâng cao",
-                                "Các gói dịch vụ hỗ trợ"
+                                "Phân hệ nâng cao"
                                 ],
+                "basic_detail_support":["Các gói dịch vụ hỗ trợ"],
                 "detail_feat_id_1":[    
                                     "Tiền mặt và tiền gửi",
                                     "Bán hàng",
