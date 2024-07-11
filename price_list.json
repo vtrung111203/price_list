@@ -14,12 +14,10 @@
                         "onclick": "myFunction1()"
                     },
                     {
-                        "title": "Tích hợp ngân hàng điện tử BIDV",
-                        "onclick": ""
+                        "title": "Tích hợp ngân hàng điện tử BIDV"
                     },
                     {
-                        "title": "Giao diện tiếng Việt",
-                        "onclick": ""
+                        "title": "Giao diện tiếng Việt"
                     }
                 ],
                 "basic_detail_support": "Các gói dịch vụ hỗ trợ",
@@ -34,29 +32,18 @@
                     "Hóa đơn điện tử",
                     "Hóa đơn đầu vào"
                 ],
-                "feat": [
-                    {
-                        "title": "Đào tạo sử dụng phần mềm online",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Hỗ trợ sử dụng các chức năng phần mềm sẵn có",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi",
-                        "onclick": ""
-                    }
+                "feat":[
+                        "Đào tạo sử dụng phần mềm online: ",
+                        "Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
+                        "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
+                        "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
                 ],
-                "feat_price": [
+                "feat_price":[
                     "500.000 VND / buổi",
                     "2.000.000 VND / Năm",
                     "3.000.000 VND / Gói"
                 ]
+            }
             }
         ]
     },
@@ -84,7 +71,7 @@
                     },
                     {
                         "title": "Phân hệ nâng cao",
-                        "onclick": ""
+                        "onclick": "myFunction4()"
                     }
                 ],
                 "basic_detail_support": "Các gói dịch vụ hỗ trợ",
@@ -103,25 +90,13 @@
                     "Hợp đồng vay hoặc cho vay",
                     "Giá thành"
                 ],
-                "feat": [
-                    {
-                        "title": "Đào tạo sử dụng phần mềm online",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Hỗ trợ sử dụng các chức năng phần mềm sẵn có",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi",
-                        "onclick": ""
-                    }
-                ],
-                "feat_price": [
+                "feat":[
+                                "Đào tạo sử dụng phần mềm online: ",
+                                "Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
+                                "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
+                                "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
+                        ],
+                "feat_price":[
                     "500.000 VND / buổi",
                     "2.500.000 VND / Năm",
                     "4.000.000 VND / Gói"
@@ -149,11 +124,11 @@
                     },
                     {
                         "title": "Đa ngôn ngữ",
-                        "onclick": ""
+                        "onclick": "myFunction7()"
                     },
                     {
                         "title": "Phân hệ nâng cao",
-                        "onclick": ""
+                        "onclick": "myFunction8()"
                     }
                 ],
                 "basic_detail_support": "Các gói dịch vụ hỗ trợ",
@@ -178,25 +153,13 @@
                     "Hợp đồng vay hoặc cho vay",
                     "Giá thành"
                 ],
-                "feat": [
-                    {
-                        "title": "Đào tạo sử dụng phần mềm online",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Hỗ trợ sử dụng các chức năng phần mềm sẵn có",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn",
-                        "onclick": ""
-                    },
-                    {
-                        "title": "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi",
-                        "onclick": ""
-                    }
-                ],
-                "feat_price": [
+                "feat":[
+                        "Đào tạo sử dụng phần mềm online: ",
+                        "Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
+                        "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
+                        "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
+                        ],
+                "feat_price":[
                     "500.000 VND / buổi",
                     "3.000.000 VND / Năm",
                     "5.000.000 VND / Gói"
