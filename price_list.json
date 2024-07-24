@@ -1,138 +1,228 @@
 [
     {
-        "price_id":1,
-        "price_details":[
+        basic_price_info: {
+            recommend: "",
+            title: "Cơ bản",
+            price: "2.000.000 đ",
+            per_year: "/3 người dùng / Năm + 1 người dùng mới: 1.600.000 đ"
+        },
+        details: [
             {
-                "price_name": "Cơ bản",
-                "price_tag": "2.000.000 đ",
-                "price_per_year": "/ 1 người dùng / Năm + 1 người dùng mới: 1.600.000 đ",
-                "blue_tick_img": "https://raw.githubusercontent.com/vtrung111203/price_list/69692929874038e80f1b22f5dea7787c13460c31/blue_tick.png",
-                "blue_tick_white_line_img": "https://raw.githubusercontent.com/vtrung111203/price_list/69692929874038e80f1b22f5dea7787c13460c31/blue_tick_white_line.png",
-                "basic_detail":[
-                                "Các phân hệ kế toán cơ bản",
-                                "Tích hợp ngân hàng điện tử BIDV",
-                                "Giao diện tiếng Việt"
-                                ],
-                "basic_detail_support":["Các gói dịch vụ hỗ trợ"],
-                "detail_feat_id_1":[
-                                    "Tiền mặt và tiền gửi",
-                                    "Bán hàng",
-                                    "Mua hàng",
-                                    "Kho",
-                                    "Tài sản cố định/Công cụ dụng cụ",
-                                    "Thuế GTGT",
-                                    "Tổng hợp",
-                                    "Hóa đơn điện tử",
-                                    "Hóa đơn đầu vào"
-                ],
-                "feat":[
-                        "Đào tạo sử dụng phần mềm online: ",
-                        "Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
-                        "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
-                        "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
-                ],
-                "feat_price":[
-                    "500.000 VND / buổi",
-                    "2.000.000 VND / Năm",
-                    "3.000.000 VND / Gói"
+                title: "Các phân hệ kế toán cơ bản",
+                features: [
+                    "Tiền mặt và tiền gửi", 
+                    "Bán hàng", 
+                    "Mua hàng", 
+                    "Kho", 
+                    "Tài sản cố định/Công cụ dụng cụ", 
+                    "Thuế GTGT", 
+                    "Tổng hợp", 
+                    "Hóa đơn điện tử", 
+                    "Hóa đơn đầu vào"
                 ]
-            }
-        ]
-    },
-    {
-        "price_id":2,
-        "price_details":[
+            },
+            {
+                title: "Tích hợp ngân hàng điện tử BIDV",
+                features: []
+            },
+            {
+                title: "Giao diện tiếng Việt",
+                features: []
+            },
+        ],
+        service_support: [
             { 
-                "price_name": "Chuyên nghiệp",
-                "price_tag": "5.000.000 đ",
-                "price_per_year": "/ 1 người dùng / Năm + 1 người dùng mới: 1.800.000 đ",
-                "blue_tick_img": "https://raw.githubusercontent.com/vtrung111203/price_list/69692929874038e80f1b22f5dea7787c13460c31/blue_tick.png",
-                "blue_tick_white_line_img": "https://raw.githubusercontent.com/vtrung111203/price_list/69692929874038e80f1b22f5dea7787c13460c31/blue_tick_white_line.png",
-                "basic_detail":[
-                                "Các phân hệ kế toán cơ bản",
-                                "Tích hợp ngân hàng điện tử BIDV",
-                                "Giao diện tiếng Việt",
-                                "Phân hệ nâng cao"
-                                ],
-                "basic_detail_support":["Các gói dịch vụ hỗ trợ"],
-                "detail_feat_id_1":[    
-                                    "Tiền mặt và tiền gửi",
-                                    "Bán hàng",
-                                    "Mua hàng",
-                                    "Kho",
-                                    "Tài sản cố định/Công cụ dụng cụ",
-                                    "Thuế GTGT",
-                                    "Tổng hợp",
-                                    "Hóa đơn điện tử",
-                                    "Hóa đơn đầu vào"
-                                ],
-                "detail_feat_id_2":[
-                                    "Hợp đồng vay hoặc cho vay",
-                                    "Giá thành"
-                                ],
-                
-                "feat":[
-                                "Đào tạo sử dụng phần mềm online: ",
-                                "Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
-                                "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
-                                "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
-                        ],
-                "feat_price":[
-                    "500.000 VND / buổi",
-                    "2.500.000 VND / Năm",
-                    "4.000.000 VND / Gói"
-                ]
+                text: "Đào tạo sử dụng phần mềm online", 
+                price: "500.000 VND / buổi" 
+            },
+            { 
+                text: "Hỗ trợ sử dụng các chức năng phần mềm sẵn có", 
+                price: "2.000.000 VND / Năm" 
+            },
+            { 
+                text: "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn", 
+                price: "3.000.000 VND / Gói" 
+            },
+            { 
+                text: "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi." 
             }
         ]
     },
     {
-        "price_id":3,
-        "price_details":[
+        basic_price_info: {
+            recommend: "Khuyên dùng",
+            title: "Chuyên nghiệp",
+            price: "5.000.000 đ",
+            per_year: "/3 người dùng / Năm + 1 người dùng mới: 1.800.000 đ"
+        },
+        details: [
             {
-                "price_name": "Doanh nghiệp",
-                "price_tag": "6.500.000 đ",
-                "price_per_year": "/ 1 người dùng / Năm + 1 người dùng mới: 2.000.000 đ",
-                "blue_tick_img": "https://raw.githubusercontent.com/vtrung111203/price_list/69692929874038e80f1b22f5dea7787c13460c31/blue_tick.png",
-                "blue_tick_white_line_img": "https://raw.githubusercontent.com/vtrung111203/price_list/69692929874038e80f1b22f5dea7787c13460c31/blue_tick_white_line.png",
-                "basic_detail":[
-                                "Các phân hệ kế toán cơ bản",
-                                "Tích hợp ngân hàng điện tử BIDV",
-                                "Đa ngôn ngữ",
-                                "Phân hệ nâng cao"
-                                ],
-                "basic_detail_support":["Các gói dịch vụ hỗ trợ"],
-                "detail_feat_id_1":[    
-                                    "Tiền mặt và tiền gửi",
-                                    "Bán hàng",
-                                    "Mua hàng",
-                                    "Kho",
-                                    "Tài sản cố định/Công cụ dụng cụ",
-                                    "Thuế GTGT",
-                                    "Tổng hợp",
-                                    "Hóa đơn điện tử",
-                                    "Hóa đơn đầu vào"
-                                ],
-                "detail_feat_id_2":[    
-                                    "Giao diện hỗ trợ Tiếng Việt, Tiếng Anh, Tiếng Trung",
-                                    "Hạch toán hai hệ thống tài khoản Việt Nam và Quốc Tế",
-                                    "Báo cáo tài chính theo hai hệ thống tài khoản",
-                                    "Báo cáo song ngữ Tiếng Việt, Tiếng Anh, Tiếng Trung"
-                                ],
-                "detail_feat_id_3":[
-                                    "Hợp đồng vay hoặc cho vay",
-                                    "Giá thành"
-                                ],
-                "feat":[
-                        "Đào tạo sử dụng phần mềm online: ",
-                        "Hỗ trợ sử dụng các chức năng phần mềm sẵn có: ",
-                        "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn: ",
-                        "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi."
-                        ],
-                "feat_price":[
-                    "500.000 VND / buổi",
-                    "3.000.000 VND / Năm",
-                    "5.000.000 VND / Gói"
+                title: "Các phân hệ kế toán cơ bản",
+                features: [
+                    "Tiền mặt và tiền gửi", 
+                    "Bán hàng",
+                    "Mua hàng", 
+                    "Kho", 
+                    "Tài sản cố định/Công cụ dụng cụ", 
+                    "Thuế GTGT", 
+                    "Tổng hợp", 
+                    "Hóa đơn điện tử", 
+                    "Hóa đơn đầu vào"
                 ]
+            },
+            {
+                title: "Tích hợp ngân hàng điện tử BIDV",
+                features: []
+            },
+            {
+                title: "Giao diện tiếng Việt",
+                features: []
+            },
+            {
+                title: "Phân hệ nâng cao",
+                features: [
+                    "Hợp đồng vay hoặc cho vay", 
+                    "Giá thành"
+                ]
+            }
+        ],
+        service_support: [
+            { 
+                text: "Đào tạo sử dụng phần mềm online", 
+                price: "500.000 VND / buổi" 
+            },
+            { 
+                text: "Hỗ trợ sử dụng các chức năng phần mềm sẵn có", 
+                price: "2.500.000 VND / Năm" 
+            },
+            { 
+                text: "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn", 
+                price: "4.000.000 VND / Gói" 
+            },
+            { 
+                text: "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi." 
+            }
+        ]
+    },
+    {
+        basic_price_info: {
+            recommend: "",
+            title: "Doanh nghiệp",
+            price: "6.500.000 đ",
+            per_year: "/3 người dùng / Năm + 1 người dùng mới: 2.000.000 đ"
+        },
+        details: [
+            {
+                title: "Các phân hệ kế toán cơ bản",
+                features: [
+                    "Tiền mặt và tiền gửi", 
+                    "Bán hàng",
+                    "Mua hàng", 
+                    "Kho", 
+                    "Tài sản cố định/Công cụ dụng cụ", 
+                    "Thuế GTGT", 
+                    "Tổng hợp", 
+                    "Hóa đơn điện tử", 
+                    "Hóa đơn đầu vào"
+                ]
+            },
+            {
+                title: "Tích hợp ngân hàng điện tử BIDV",
+                features: []
+            },
+            {
+                title: "Đa ngôn ngữ",
+                features: [
+                    "Giao diện hỗ trợ Tiếng Việt, Tiếng Anh, Tiếng Trung", 
+                    "Hạch toán hai hệ thống tài khoản Việt Nam và Quốc Tế",
+                    "Báo cáo tài chính theo hai hệ thống tài khoản", 
+                    "Báo cáo song ngữ Tiếng Việt, Tiếng Anh, Tiếng Trung"
+                ]
+            },
+            {
+                title: "Phân hệ nâng cao",
+                features: [
+                    "Hợp đồng vay hoặc cho vay", 
+                    "Giá thành"
+                ]
+            }
+        ],
+        service_support: [
+            { 
+                text: "Đào tạo sử dụng phần mềm online", 
+                price: "500.000 VND / buổi" 
+            },
+            { 
+                text: "Hỗ trợ sử dụng các chức năng phần mềm sẵn có", 
+                price: "3.000.000 VND / Năm" 
+            },
+            { 
+                text: "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn", 
+                price: "5.000.000 VND / Gói" 
+            },
+            { 
+                text: "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi." 
+            }
+        ]
+    },
+    {
+        basic_price_info: {
+            recommend: "Khuyên dùng",
+            title: "Premium",
+            price: "8.000.000 đ",
+            per_year: "/5 người dùng / Năm + 1 người dùng mới: 2.500.000 đ"
+        },
+        details: [
+            {
+                title: "Các phân hệ kế toán cơ bản",
+                features: [
+                    "Tiền mặt và tiền gửi", 
+                    "Bán hàng",
+                    "Mua hàng", 
+                    "Kho", 
+                    "Tài sản cố định/Công cụ dụng cụ", 
+                    "Thuế GTGT", 
+                    "Tổng hợp", 
+                    "Hóa đơn điện tử", 
+                    "Hóa đơn đầu vào"
+                ]
+            },
+            {
+                title: "Tích hợp ngân hàng điện tử BIDV",
+                features: []
+            },
+            {
+                title: "Đa ngôn ngữ",
+                features: [
+                    "Giao diện hỗ trợ Tiếng Việt, Tiếng Anh, Tiếng Trung", 
+                    "Hạch toán hai hệ thống tài khoản Việt Nam và Quốc Tế",
+                    "Báo cáo tài chính theo hai hệ thống tài khoản", 
+                    "Báo cáo song ngữ Tiếng Việt, Tiếng Anh, Tiếng Trung"
+                ]
+            },
+            {
+                title: "Phân hệ nâng cao",
+                features: [
+                    "Hợp đồng vay hoặc cho vay", 
+                    "Giá thành"
+                ]
+            }
+        ],
+        service_support: [
+            { 
+                text: "Đào tạo sử dụng phần mềm online", 
+                price: "500.000 VND / buổi" 
+            },
+            { 
+                text: "Hỗ trợ sử dụng các chức năng phần mềm sẵn có", 
+                price: "3.000.000 VND / Năm" 
+            },
+            { 
+                text: "Chỉnh sửa giao diện làm việc, mẫu phiếu, báo cáo quản trị trên chức năng có sẵn", 
+                price: "5.000.000 VND / Gói" 
+            },
+            { 
+                text: "Bổ sung các tính mới theo yêu cầu với giá cả ưu đãi." 
             }
         ]
     }
